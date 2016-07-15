@@ -94,6 +94,9 @@
 		"from_peers": "From Peers",
 		"from_cache": "From Cache"
 	},
+	"cert": {
+		"expired": "__name__ expired __moment__"
+	},
 	"client": {
 		"activity": "Client Activity",
 		"comment": "Comments",
@@ -155,8 +158,15 @@
 			"title": "CrashPlan"
 		}
 	},
+	"danger": "Error",
+	"database": "Database",
 	"date": {
 		"year": "year"
+	},
+	"db": {
+		"connectable": "Connectable",
+		"driver": "Driver",
+		"writable": "Writable"
 	},
 	"delete": "Delete",
 	"dialog": {
@@ -177,7 +187,12 @@
 		"widget_info": "Total number of known external displays",
 		"widget_title": "External Displays Count"
 	},
+	"displayname": "Display Name",
 	"edit": "Edit",
+	"email": {
+		"email": "Email",
+		"show_machine_in_browser": "Show machine in browser"
+	},
 	"enabled": "Enabled",
 	"encrypted": "Encrypted",
 	"error": "Error",
@@ -187,7 +202,8 @@
 		"client_nonexistent": "Client with serial number \"__serial__\" does not exist",
 		"403": "You are not allowed to view this page",
 		"404": "Page not found",
-		"426": "You are required to visit this site using a secure connection."
+		"426": "You are required to visit this site using a secure connection.",
+		"loading": "There was problem with retrieving this data: __error__"
 	},
 	"event": "Event",
 	"event_plural": "Events",
@@ -224,7 +240,7 @@
 	},
 	"free_disk_space": "Free Disk Space",
 	"free_disk_space_less_than": "Free Disk Space < __gb__GB",
-    	"gsx": {
+	"gsx": {
 		"configuration": "Shipping Configuration",
 		"contracttype": "Contract Type",
 		"country": "Country of Purchase",
@@ -253,6 +269,7 @@
 		"uuid": "Hardware UUID"
 	},
 	"inactive": "Inactive",
+	"info": "Information",
 	"installed": "Installed",
 	"last_seen": "Last Seen",
 	"last_user": "Last User",
@@ -324,8 +341,16 @@
 		"report": "Location Report",
 		"stalelocation": "Stale Location"
 	},
+	"loading": "Loading data from server",
 	"machine": {
 		"hardware_widget_title": "Hardware model breakdown"
+	},
+	"managedinstalls": {
+		"failing_clients": "Clients with failing installs",
+		"installratio_report": "Installation Ratio Report",
+		"no_managedinstalls": "No Managed Installs",
+		"report": "Managedinstalls Report",
+		"title": "Managed Installs"
 	},
 	"manifest": {
 		"name": "Manifest Name"
@@ -339,6 +364,7 @@
 	"munki": {
 		"error": "Munki error: __error__",
 		"error_plural": "__count__ Munki errors",
+		"errors_and_warnings": "Errors and Warnings",
 		"package_installed": "__pkg__ installed",
 		"package_installed_plural": "__count__ packages installed",
 		"panel_title": "Munki statistics this week",
@@ -423,6 +449,26 @@
 	"new_client_plural": "New Clients",
 	"no_clients": "No Clients",
 	"no_data": "No Data",
+	"no_errors_or_warnings": "No Errors or Warnings",
+	"notification": {
+		"all_levels": "All levels",
+		"business_unit": "Business Unit",
+		"business_units_all": "All Business Units",
+		"confirm_delete": "Confirm delete notification",
+		"edit": "Edit notification",
+		"menu_link": "Manage Notifications",
+		"new": "New notification",
+		"notification_enabled": "Enabled",
+		"notification_how": "Method",
+		"notification_module": "Module",
+		"notification_severity": "Level",
+		"notification_title": "Description",
+		"notification_who": "Email address",
+		"title": "Notifications",
+		"widget": {
+			"title": "Notification rules"
+		}
+	},
 	"on": "On",
 	"off": "Off",
 	"os": {
@@ -430,6 +476,14 @@
 	},
 	"path": "Path",
 	"pending": "Pending",
+	"php": {
+		"dom": "DOM Extension",
+		"moreinfo": "Extended PHP info",
+		"pdo": "PDO Extension",
+		"pdodrivers": "PDO Database drivers",
+		"php": "PHP",
+		"version": "Version"
+	},
 	"pkg_failed_to_install": "__pkg__ failed to install: __reason__",
 	"pkg_failed_to_install_plural": "__count__ packages failed to install",
 	"reg_date": "Registration Date",
@@ -472,6 +526,7 @@
 		"smb_users": "SMB Users"
 	},
 	"show": "Show",
+	"size": "Size",
 	"software": {
 		"software": "Software",
 		"smc_version": "SMC Version",
@@ -497,8 +552,13 @@
 		"used": "Used",
 		"volume_type": "Volume Type"
 	},
+	"success": "Success",
 	"system": {
+		"status": "Munkireport System Status",
 		"system": "System"
+	},
+	"systemstatus": {
+		"menu_link": "Show System Status"
 	},
 	"tag": {
 		"listing": {
